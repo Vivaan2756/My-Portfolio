@@ -51,4 +51,8 @@ themeToggle.addEventListener('click', () => {
 menuToggle.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
-
+navLinks.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('show');
+  });
+});
