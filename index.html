@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vivaan Patel — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <header class="hero" id="home">
+    <div class="nav container">
+      <div class="brand">Vivaan Patel</div>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Vivaan_Patel_Resume.pdf" target="_blank">Resume</a>
+        <a href="https://github.com/Vivaan2756" target="_blank">GitHub</a>
+      </nav>
+    </div>
+
+   <div class="hero-content container" data-animate>
+  <div class="hero-text">
+    <h1>Hi, I'm <span class="accent">Vivaan</span></h1>
+    <p class="lead">Enthusiastic and detail-oriented developer with a solid foundation in HTML, CSS, JavaScript, and Flask, complemented by strong skills in NumPy, Pandas, and Matplotlib for data analysis and visualization. Skilled in bridging front-end and back-end development to build interactive, data-driven web applications. Adept at transforming complex problems into efficient, user-friendly solutions, with a passion for continuous learning and clean code. Eager to expand expertise into Artificial Intelligence and Machine Learning to build smarter, more innovative applications.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">See my Projects</a>
+      <button class="btn ghost" id="theme-toggle">Toggle Theme</button>
+    </div>
+  </div>
+
+  <div class="intro-image">
+    <img src="Programming-amico-1280x1280.png" alt="Programming Illustration">
+  </div>
+</div>
+
+  </header>
+
+  <main>
+    <section id="about" class="section container" data-animate>
+      <h2>Skills</h2>
+      <p>I build web apps and data tools using Flask, Pandas, NumPy and modern front-end tech. I'm currently a 2nd-year engineering student exploring AI/ML.</p>
+
+      <div class="skills">
+        <div class="skill">
+          <div class="label">HTML</div>
+          <div class="bar"><div class="fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">CSS</div>
+          <div class="bar"><div class="fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">JavaScript</div>
+          <div class="bar"><div class="fill" style="--w:80%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">Python</div>
+          <div class="bar"><div class="fill" style="--w:99%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">FLask</div>
+          <div class="bar"><div class="fill" style="--w:99%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">Numpy</div>
+          <div class="bar"><div class="fill" style="--w:99%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">Pandas</div>
+          <div class="bar"><div class="fill" style="--w:99%"></div></div>
+        </div>
+        <div class="skill">
+          <div class="label">Matplotlib</div>
+          <div class="bar"><div class="fill" style="--w:75%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container ">
+      <h2 data-animate>Projects</h2> 
+      <div class="projects-grid">
+        <article class="project-card" data-animate>
+          <h3>Daily Mood Tracker</h3>
+          <p>Flask app to log moods, visualize trends with Pandas, and export CSV reports.</p>
+          <p class="meta"><a href="https://github.com/yourusername/daily-mood-tracker" target="_blank">GitHub</a></p>
+        </article>
+
+        <article class="project-card" data-animate>
+          <h3>Student Performance Dashboard</h3>
+          <p>Dashboard using Flask + Pandas + NumPy to analyze and visualize student marks.</p>
+          <p class="meta"><a href="https://github.com/yourusername/student-performance" target="_blank">GitHub</a></p>
+        </article>
+
+        <article class="project-card" data-animate>
+          <h3>Portfolio Starter</h3>
+          <p>This template — responsive, animated, and ready to deploy on Vercel/Netlify.</p>
+          <p class="meta"><a href="#" class="disabled">Live demo</a></p>
+        </article>
+        <article class="project-card" data-animate>
+          <h3>Flask Todo App</h3>
+          <p>This is a simple To-Do List web app built with Flask with secured Login/Logout system deployed on railway</p>
+          <p class="meta"><a href="http://todo-flask-app-production-4c6e.up.railway.app" class="disabled">Live demo</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container" data-animate>
+      <h2>Contact</h2>
+      <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Message..." required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+<footer class="footer">
+  <p>How to Connect With Me?</p>
+  <div class="social-links">
+    <a href="https://github.com/Vivaan2756" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/vivaan-patel-b81b21319/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="mailto:patelvivaan814@gmail.com">
+      <i class="fas fa-envelope"></i> Email
+    </a>
+  </div>
+  <div class="container">© 2025 Vivaan Patel | All Rights Reserved.</div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
