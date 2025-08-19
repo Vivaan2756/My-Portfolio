@@ -19,7 +19,7 @@ body{
   background:linear-gradient(180deg,var(--bg),#071014);
   color:#e6eef3;
   -webkit-font-smoothing:antialiased;
-  transition: background .45s ease, color .45s ease;
+
 }
 body.light{
   --bg:#f4f7fb;

@@ -4,9 +4,11 @@ const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
 // Load saved theme
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme) body.classList.add(savedTheme);
 
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme){
+  body.classList.add(savedTheme);
+}
 // Particle color based on theme
 let particleColor = body.classList.contains('light') ? '#000000' : '#00e5ff';
 
