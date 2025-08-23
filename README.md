@@ -24,7 +24,7 @@ Welcome to my personal portfolio website! This project showcases my projects, sk
 
 -Email Integration: EmailJS for contact form submissions
 
-You can check it out live here:http://vivaanportfolio.netlify.app 
+You can check it out live here:https://vivaan-portfolio.onrender.com
 ---
 
   
