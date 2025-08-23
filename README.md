@@ -1,29 +1,30 @@
-#Vivaan Patel Portfolio Website
+## Vivaan Patel Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my projects, skills, and contact information, along with an AI-powered chatbot integrated using Google Gemini.
 
-Features
+## Features
 
-Portfolio Showcase: Display of my projects with descriptions and links.
+-Portfolio Showcase: Display of my projects with descriptions and links.
 
-Skills Section: Highlights my technical skills and expertise.
+-Skills Section: Highlights my technical skills and expertise.
 
-Contact Form: Allows visitors to send me messages directly.
+-Contact Form: Allows visitors to send me messages directly.
 
-AI Chatbot: Interactive assistant powered by Google Gemini to answer questions about my skills, projects, and more.
+-AI Chatbot: Interactive assistant powered by Google Gemini to answer questions about my skills, projects, and more.
 
-Responsive Design: Works on desktop, tablet, and mobile devices.
+-Responsive Design: Works on desktop, tablet, and mobile devices.
 
-Technologies Used
+## Technologies Used
 
-Frontend: HTML, CSS, JavaScript
+-Frontend: HTML, CSS, JavaScript
 
-Backend: Flask (Python)
+-Backend: Flask (Python)
 
-AI Integration: Google Gemini API
+-AI Integration: Google Gemini API
 
-Email Integration: EmailJS for contact form submissions
+-Email Integration: EmailJS for contact form submissions
 
+You can check it out live here:http://vivaanportfolio.netlify.app 
 ---
 
   
